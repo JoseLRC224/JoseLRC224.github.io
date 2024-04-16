@@ -8,8 +8,7 @@ miImage.onclick = function () {
   }
 };
 
-let miTitulo = document.querySelector("h1");
-miTitulo.innerHTML = "Dinero Inteligente: Tu Guía Financiera para Emprender";
+
 
 /*
 let miBoton = document.querySelector("button");

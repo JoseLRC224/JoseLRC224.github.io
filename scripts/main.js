@@ -8,6 +8,7 @@ miImage.onclick = function () {
   }
 };
 
+/*
 let miBoton = document.querySelector("button");
 let miTitulo = document.querySelector("h1");
 
@@ -39,5 +40,5 @@ function estableceNombreUsuario() {
     }
   }
   
-  
+  */
 

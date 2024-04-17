@@ -1,29 +1,29 @@
 html {
-    font-size: 10px;  /*px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-size: 0.625em; /*10px/16px*/  /*px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
     font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */  
   }
   
 h1 {
-    font-size: 60px;
+    font-size: 3.75em/*60px/16px*/;
     text-align: center;
   }
   
 p, li {
-    font-size: 16px;
+    font-size: 1.5em/*24px/16px*/;
     line-height: 2;
-    letter-spacing: 1px;
+    letter-spacing: 1px/*1px/16*/;
     
   }
 
 
 html {
-    background-color: #f0c383;
+    background-color: #aabfaa;
   }
   
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #a88a61;
+    background-color: #d3ebc7;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }

@@ -14,15 +14,22 @@ html {
   color: blue;
 }
 
-.titleArea{
-  width: 60%;
+.Photo{
+  width: 33.3333333%;
   background-color: blue;
 
 }
 
-#Spectaular .Photo{
-  width: 33.3333333;
+.imagen-influencer{
+  width: 29%;
+}
+
+#Spectaular .titleArea{
+  width: 60%;
   background-color: blue;
+}
+.titulo{
+  width: 56%;
 }
 
 #inner{

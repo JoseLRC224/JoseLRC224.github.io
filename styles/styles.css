@@ -1,48 +1,21 @@
-html {
-    font-size: 0.625em; /*10px/16px*/  /*px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */  
+/*Barra de navegacion*/
+
+.navbar{
+  padding: 2rem;
+  background-color: #f5f6f7;
 }
 
-#wrap{
-    width: 90%;
-    max-width: 1000px;
-    background-color: aquamarine;
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
 }
 
-#Spectaular {
-  width: 100%;
-  color: blue;
+
+
+/*Responsivo*/
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+      display: none;
+  }
 }
 
-.Photo{
-  width: 33.3333333%;
-  background-color: blue;
-
-}
-
-.imagen-influencer{
-  width: 29%;
-}
-
-#Spectaular .titleArea{
-  width: 60%;
-  background-color: blue;
-}
-.titulo{
-  width: 56%;
-}
-
-#inner{
-  width: 100%;
-  background-color: blue;
-}
-
-.dropdown{
-  width: 82.291667%;
-  background-color: blue;
-}
-
-.form{
-  width: 68.8888889%;
-  background-color: blue;
-}

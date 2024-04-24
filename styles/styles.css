@@ -1,3 +1,38 @@
+/*Estilos generales*/
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+ font-size: 2.5rem;
+ font-family: "Roboto Mono", monospace;
+
+}
+
+.dark-section{
+  color: white;
+  background-color: #1b1b32;
+}
+
+.clear-section{
+  color: black;
+  background-color: white;
+}
+
+.title-section{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.text-section{
+  font-size: 1.2rem;
+}
+
 /*Barra de navegacion*/
 
 .navbar{
@@ -11,49 +46,24 @@
 }
 
 /*Seccion Hero*/
-.hero{
-  background-color: #f5f6f7;
-  min-height: 20px;
-  text-align: center;
 
-}
-
-.img-back{
-  height: 250px;
-  margin: 5px;
-  overflow: hidden
-}
-
-.hero-principal{
-  padding: 1rem;
-
-}
 
 /*Estilos generales*/
 
-section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-h1{
- font-size: 2rem;
- font-family: "Roboto Mono", monospace;
-
-}
-h2{
-  font-size: 1.5rem;
- font-family: "Roboto Mono", monospace;
-}
 
 
 
 /*Responsivo*/
+
 @media screen and (max-width: 767px) {
   .navbar-brand{
       display: none;
   }
 }
 
+@media screen and (min-width: 700px){
+  .hero-inferior-img{
+      max-width: 600px;
+  }
+}

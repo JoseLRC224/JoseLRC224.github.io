@@ -50,7 +50,7 @@ h1{
 /*Barra de navegacion*/
 
 .navbar{
-  height: 50px;
+
   padding: 2rem;
   background-color: #BF9692;
 }
@@ -58,6 +58,7 @@ h1{
 .navbar-collapse{
   align-items: center;
   justify-content: space-between;
+  background-color: #BF9692;
 }
 
 /*Seccion Hero*/
